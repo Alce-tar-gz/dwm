@@ -8,14 +8,17 @@ This is my own build of dwm
 git clone https://github.com/Alce-tar-gz/dwm.git
 ```
 _i would recommend doing this in ~/.local/source/_
+---
 2. Go inside the repo
 ```
 cd dwm
 ```
+---
 3. Compile it from source
 ```
 sudo make install clean
 ```
+---
 4. **if you want to use a login manager** create /usr/share/xsessions/dwm.desktop and write this in it:
 ```
 [Desktop Entry]
